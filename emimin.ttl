@@ -401,7 +401,7 @@ skos:inScheme <> .
 <additional_housing_systems/liquid_manure> a skos:Concept ;
 skos:prefLabel "Liquid manure"@en, "Flüssigmist"@de ;
 skos:definition "A general term that denotes any MANURE from housed LIVESTOCK that flows under gravity and can be pumped. There are several different types of LIQUID MANURE arising from different types of LIVESTOCK housing, MANURE storage and TREATMENT."@en ;
-skos:exactMatch "http://aims.fao.org/aos/agrovoc/c_4373" ;
+skos:exactMatch <http://aims.fao.org/aos/agrovoc/c_4373> ;
 skos:broader <additional_housing_systems> ;
 skos:broader <livestock_category/cattle> ;
 skos:broader <livestock_category/pig> ;
@@ -746,7 +746,7 @@ skos:broader <livestock_production/suckler_cow_farming> ;
 skos:broader <livestock_production/cattle_fattening> ;
 skos:broader <livestock_production/calf_raising> ;
 skos:broader <livestock_production/calf_fattening> ;
-skos:broader <livestock_production/piglet_procuction> ;
+skos:broader <livestock_production/piglet_production> ;
 skos:broader <livestock_production/piglet_raising> ;
 skos:broader <livestock_production/pig_fattening> ;
 skos:broader <livestock_production/duck_fattening> ;
