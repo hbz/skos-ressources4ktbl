@@ -5,10 +5,20 @@
 @prefix vann: <http://purl.org/vocab/vann/> .
 
 <> a skos:ConceptScheme ;
-skos:prefLabel "ktbl Emi vocabulary"@en, "ktbl Emi Vokabular"@de ;
+dcterms:alternative "ktbl Emi vocabulary"@en, "ktbl Emi Vokabular"@de ;
 dcterms:title "Common metadata vocabulary for Emi and associated projects"@en ;
 vann:preferredNamespacePrefix "emimin" ;
-vann:preferredNamespaceUri "https://www.ktbl.de/emimin#" .
+vann:preferredNamespaceUri "https://www.ktbl.de/emimin#" ;
+skos:hasTopConcept  <livestock_category>,
+                    <livestock_production>,
+                    <housing_systems>,
+                    <additional_housing_systems>,
+                    <ventilation_system>,
+                    <emi_measurement_techniques>,
+                    <emissions>,
+                    <emission_reduction_methods>,
+                    <project_title>,
+                    <test_design> .
 
 <livestock_category> a skos:Concept ;
 skos:prefLabel "Livestock category"@en, "Tierart"@de ;
