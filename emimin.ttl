@@ -8,7 +8,7 @@
 dcterms:alternative "ktbl Emi vocabulary"@en, "ktbl Emi Vokabular"@de ;
 dcterms:title "Common metadata vocabulary for Emi and associated projects"@en ;
 vann:preferredNamespacePrefix "emimin" ;
-vann:preferredNamespaceUri "https://www.ktbl.de/emimin#" ;
+vann:preferredNamespaceUri "https://w3id.org/ktbl/emimin/" ;
 skos:hasTopConcept  <livestock>,
                     <livestock_production>,
                     <housing_systems>,
