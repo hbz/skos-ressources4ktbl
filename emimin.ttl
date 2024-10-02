@@ -598,11 +598,6 @@ skos:prefLabel "Feed supplements (FS)"@en, "Nahrungsergänzung"@de ;
 skos:broader <emission_reduction_methods> ;
 skos:inScheme <> .
 
-<manure_belt> a skos:Concept ;
-skos:prefLabel "Manure belt (MB)"@en, "Kotband"@de ;
-skos:broader <emission_reduction_methods> ;
-skos:inScheme <> .
-
 <slurry_cooling> a skos:Concept ;
 skos:prefLabel "Slurry cooling (SC)"@en, "Güllekühlung"@de ;
 skos:broader <emission_reduction_methods> ;
