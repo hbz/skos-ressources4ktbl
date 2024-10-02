@@ -9,7 +9,7 @@ dcterms:alternative "ktbl Emi vocabulary"@en, "ktbl Emi Vokabular"@de ;
 dcterms:title "Common metadata vocabulary for Emi and associated projects"@en ;
 vann:preferredNamespacePrefix "emimin" ;
 vann:preferredNamespaceUri "https://www.ktbl.de/emimin#" ;
-skos:hasTopConcept  <livestock_category>,
+skos:hasTopConcept  <livestock>,
                     <livestock_production>,
                     <housing_systems>,
                     <additional_housing_systems>,
@@ -740,7 +740,7 @@ skos:broader <suckler_cow_farming> ;
 skos:broader <cattle_fattening> ;
 skos:broader <calf_raising> ;
 skos:broader <calf_fattening> ;
-skos:broader <piglet_procuction> ;
+skos:broader <piglet_production> ;
 skos:broader <piglet_raising> ;
 skos:broader <pig_fattening> ;
 skos:broader <duck_fattening> ;
