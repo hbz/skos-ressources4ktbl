@@ -6,7 +6,8 @@
 
 <> a skos:ConceptScheme ;
 dcterms:alternative "ktbl Emi vocabulary"@en, "ktbl Emi Vokabular"@de ;
-dcterms:title "Common metadata vocabulary for Emi and associated projects"@en ;
+dcterms:title "Common metadata vocabulary for Emi and associated projects"@en, "Gemeinsames kontrolliertes Vokabular für Emi und verwandte Projekte"@de ;
+dcterms:description "This is a description"@en, "Hier müsste eine Beschreibung rein"@de ;
 vann:preferredNamespacePrefix "emimin" ;
 vann:preferredNamespaceUri "https://w3id.org/ktbl/emimin/" ;
 skos:hasTopConcept  <livestock>,
